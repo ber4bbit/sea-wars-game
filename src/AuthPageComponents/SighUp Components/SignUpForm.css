@@ -1,0 +1,15 @@
+.formContainerSignUp {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-width: 10%;
+}
+
+.formContainerSignIn {
+    display: flex;
+    flex-direction: column;
+
+    width: 20%;
+    min-width: 10%;
+}
