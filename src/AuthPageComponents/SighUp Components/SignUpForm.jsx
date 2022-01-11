@@ -3,12 +3,12 @@ import React from "react";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-import './AuthPageForm.css';
+import './SignUpForm.css';
 
-export default function AuthPageForm() {
+export default function SignUpForm() {
     return (
         <div style={{ display: "flex", justifyContent: "center"}}>
-                <form action="" className="formContainer">
+                <form action="" className="formContainerSignUp">
                     <section style={{width: "100%", display: "flex", justifyContent: "space-between"}}>
                         <TextField
                             style={{width: "49%"}}
@@ -31,8 +31,13 @@ export default function AuthPageForm() {
                         margin="dense"
                         color="success"
                     />
-                    <Button variant="contained" color="success" style={{marginTop: "12px"}}>Sign In</Button>
-                    <Button variant="outlined" color="success" style={{marginTop: "12px"}}>Sign Up</Button>
+                    <TextField
+                        variant="outlined"
+                        label="Repassword *"
+                        margin="dense"
+                        color="success"
+                    />
+                    <Button variant="contained" color="success" style={{marginTop: "12px"}}>Create account</Button>
                 </form>
         </div>
     )
