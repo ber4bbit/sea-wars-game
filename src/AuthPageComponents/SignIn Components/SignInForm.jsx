@@ -8,7 +8,7 @@ import SignUpForm from "../SighUp Components/SignUpForm";
 
 export default function SignInForm() {
     const [ modalActive, setModalActive ] = useState(false);
-    return(
+    return (
         <div style={{ display: "flex", justifyContent: "center"}}>
             <form action="" className="formContainerSignIn">
                 <TextField
@@ -16,7 +16,6 @@ export default function SignInForm() {
                     color="success"
                     label="Your email *"
                     margin="dense"
-                    style={{color: "white"}}
                 />
                 <TextField
                     variant="outlined"
