@@ -8,6 +8,7 @@ function App() {
       <AuthPage/>
     </div>
   );
+
 }
 
 export default App;
