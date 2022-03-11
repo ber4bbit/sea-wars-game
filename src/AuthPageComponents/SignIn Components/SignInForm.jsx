@@ -8,6 +8,7 @@ import SignUpForm from "../SighUp Components/SignUpForm";
 
 export default function SignInForm() {
     const [ modalActive, setModalActive ] = useState(false);
+
     return(
         <div style={{ display: "flex", justifyContent: "center"}}>
             <form action="" className="formContainerSignIn">
